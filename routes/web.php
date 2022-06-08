@@ -16,3 +16,4 @@ use App\Http\Controllers\PublicController;
 
 Route::get('/',[PublicController::class, 'homepage'])->name('homepage');
 Route::get('/contacts',[PublicController::class, 'contacts'])->name('contacts');
+Route::get('/services',[PublicController::class, 'services'])->name('services');
