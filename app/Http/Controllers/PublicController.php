@@ -12,4 +12,7 @@ class PublicController extends Controller
     public function contacts(){
         return view('contacts');
     }
+    public function services(){
+        return view('services');
+    }
 };
